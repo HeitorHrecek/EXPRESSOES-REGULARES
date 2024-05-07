@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form id="myForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="nome"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email"><br><br>
+
+        <label for="phone">Telefone (com DDD):</label>
+        <input type="text" id="telefone">
+        <small>Formato: (XX) XXXX-XXXX ou (XX) XXXXX-XXXX</small><br><br>
+
+        <button type="button" onclick="validaCampos()">Enviar</button>
+    </form>
+
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
